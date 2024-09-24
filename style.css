@@ -1,0 +1,67 @@
+.body-menu {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    flex-direction: column;
+}
+
+#playbutton {
+    width: 100%;
+}
+
+#title {
+    width: 30%;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+#instruction {
+    position: absolute;
+    bottom:30px;
+    left: 20px;
+    color: whitesmoke;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.body-end {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+#you-won {
+    width: 40%;
+}
+
+#buttons {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+ }
+ 
+ #buttons a {
+     display: inline-block; 
+ }
+ 
+ #buttons img {
+     width: 100%; 
+     max-width: 130px; 
+ }
+ 
+ a {
+     text-decoration: none;
+ }
